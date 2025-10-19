@@ -69,3 +69,59 @@ class HomeActivity extends StatelessWidget{
     );
   }
 }
+
+
+// class FacebookTopNav extends StatelessWidget {
+//   const FacebookTopNav({super.key});
+//
+//   @override
+//   Widget build(BuildContext context) {
+//     return Container(
+//       padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
+//       color: Colors.white,
+//       child: Row(
+//         mainAxisAlignment: MainAxisAlignment.spaceBetween,
+//         children: [
+//           // Left side (Facebook Logo)
+//           const Text(
+//             'facebook',
+//             style: TextStyle(
+//               color: Colors.blue,
+//               fontSize: 26,
+//               fontWeight: FontWeight.bold,
+//             ),
+//           ),
+//
+//           // Middle icons (Home, Friends, Watch, Marketplace)
+//           Row(
+//             mainAxisAlignment: MainAxisAlignment.center,
+//             children: const [
+//               Icon(Icons.home, color: Colors.blue),
+//               SizedBox(width: 20),
+//               Icon(Icons.group_outlined, color: Colors.grey),
+//               SizedBox(width: 20),
+//               Icon(Icons.ondemand_video, color: Colors.grey),
+//               SizedBox(width: 20),
+//               Icon(Icons.storefront_outlined, color: Colors.grey),
+//             ],
+//           ),
+//
+//           // Right side icons (Search, Messenger)
+//           Row(
+//             children: [
+//               CircleAvatar(
+//                 backgroundColor: Colors.grey.shade200,
+//                 child: const Icon(Icons.search, color: Colors.black),
+//               ),
+//               const SizedBox(width: 8),
+//               CircleAvatar(
+//                 backgroundColor: Colors.grey.shade200,
+//                 child: const FaIcon(FontAwesomeIcons.facebookMessenger, color: Colors.black, size: 18),
+//               ),
+//             ],
+//           ),
+//         ],
+//       ),
+//     );
+//   }
+// }
